@@ -5,7 +5,8 @@
   "description": "ms-resource:loc.description",
   "helpMarkDown": "ms-resource:loc.helpMarkDown",
   "category": "Utility",
-  "author": "Geek Learning",
+  "author": "Jonathan Bruce",
+  "author": "Jonathan Bruce",
   "visibility": ["Build", "Release"],
   "version": {
     "Major": 0,

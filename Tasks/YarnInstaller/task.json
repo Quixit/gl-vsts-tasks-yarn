@@ -6,12 +6,8 @@
   "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-yarn/wiki/Yarn) (Version #{Version}#)",
   "category": "Utility",
   "visibility": ["Build", "Release"],
-  "author": "Geek Learning",
-  "version": {
-    "Major": 0,
-    "Minor": 0,
-    "Patch": 0
-  },
+  "author": "Jonathan Bruce",
+  "version": "2.0.0",
   "minimumAgentVersion": "2.117.0",
   "groups": [],
   "satisfies": ["yarn"],
@@ -48,6 +44,10 @@
       "argumentFormat": ""
     },
     "Node10": {
+      "target": "yarnToolInstallerTask.js",
+      "argumentFormat": ""
+    },
+    "Node20_1": {
       "target": "yarnToolInstallerTask.js",
       "argumentFormat": ""
     }

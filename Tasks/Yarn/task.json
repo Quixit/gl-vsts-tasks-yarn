@@ -5,13 +5,9 @@
   "description": "Executes Yarn",
   "helpMarkDown": "[More Information](https://github.com/geeklearningio/gl-vsts-tasks-yarn/wiki/Yarn) (Version #{Version}#).\n\nDear Angular and Ember CLI users, please check our [known issues](https://github.com/geeklearningio/gl-vsts-tasks-yarn/wiki/Known-Issues)",
   "category": "Utility",
-  "author": "Geek Learning",
+  "author": "Jonathan Bruce",
   "visibility": ["Build", "Release"],
-  "version": {
-    "Major": 0,
-    "Minor": 0,
-    "Patch": 0
-  },
+  "version": "2.0.0",
   "runsOn": ["Agent", "DeploymentGroup"],
   "demands": ["yarn"],
   "minimumAgentVersion": "1.91.0",
@@ -101,6 +97,10 @@
       "argumentFormat": ""
     },
     "Node10": {
+      "target": "yarnTask.js",
+      "argumentFormat": ""
+    },
+    "Node20_1": {
       "target": "yarnTask.js",
       "argumentFormat": ""
     }

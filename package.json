@@ -28,17 +28,17 @@
     "npm.js",
     "install"
   ],
-  "author": "Geek Learning, Adrien Siffermann, Cyprien Autexier",
+  "author": "Geek Learning, Adrien Siffermann, Cyprien Autexier, Jonathan Bruce",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geeklearningio/gl-vsts-tasks-yarn/issues"
+    "url": "https://github.com/quixit/gl-vsts-tasks-yarn/issues"
   },
-  "homepage": "https://github.com/geeklearningio/gl-vsts-tasks-yarn/vsts-tasks",
+  "homepage": "https://github.com/quixit/gl-vsts-tasks-yarn/vsts-tasks",
   "devDependencies": {
     "@types/fs-extra": "^7.0.0",
     "@types/ini": "^1.3.30",
     "@types/ltx": "^2.8.1",
-    "@types/node": "^12.0.4",
+    "@types/node": "^20.3.1",
     "@types/jasmine": "3.3.13",
     "@types/q": "^1.5.2",
     "@types/tar": "^4.0.0",
@@ -53,7 +53,7 @@
     "prettier": "1.17.1",
     "pretty-quick": "^1.11.0",
     "tslint": "5.17.0",
-    "typescript": "^3.5.1",
+    "typescript": "5.1.6",
     "jasmine-reporters": "2.3.2",
     "jasmine": "3.4.0"
   },
